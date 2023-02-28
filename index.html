@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>W3.CSS Template</title>
+<title>E-portfolio Måns Abrahamsson</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="main.css">
 <style>
 body {font-family: "Lato", sans-serif}
 .mySlides {display: none}
@@ -37,24 +38,76 @@ body {font-family: "Lato", sans-serif}
 <div class="w3-content" style="max-width:2000px;margin-top:46px">
 
   <!-- Automatic Slideshow Images -->
-  <div class="mySlides w3-display-container w3-center">
-    <img src="test.png" style="width:100%">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <h1>Måns Abrahamsson</h1>
-      <p><b>Lorem ipsum</b></p>   
+  <div style="width: 100%; margin-left: 0%; background-color: #BF616A; top:50%; left: 50%;">
+    <!-- <img src="test.png" style="width:100%"> -->
+    <div>
+      <h1 class="relative_centered" style="font-size: 80px; padding-bottom: 0px; padding-top: 80px; text-align: center;">
+        Måns Abrahamsson
+      </h1>
+      <p class="relative_centered" style="font-size: 30px; padding-top: 0px; text-align: center;">
+        <b>E-portfolio 2023</b>
+      </p>   
     </div>
   </div>
   </div>
-
-  <!-- The Band Section -->
+  
+  <!-- Projekt -->
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
     <h2 class="w3-wide">Mina projekt</h2>
-    <div class="w3-container w3-content w3-center" style="max-width: 1000px"> 
-        <img src="cubetracer1.png" style="width: 100%">
-        <div class="w3-display-topright w3-container w3-text-black">
-            <h3>Cubetracer</h3>
-        </div>
+    
+    <!-- CUBE TRACER -->
+    <hr class="solid">
+    <div class="container" style="max-width: 1000px"> 
+      
+      <!-- bilden -->  
+      <img src="cubetracer1.png" style="width: 100%">
+      
+      <!-- rubriken -->
+      <div class="top_center projHeader">
+          <h1>CUBETRACER</h1>
+      </div>
+
+      <!-- Vad projektet innehåller () -->
+      
+      <div class="lang_props">
+        <h3>c++    datastrukturer</h3> 
+      </div>
+      <hr class="solid wide">
+      
+      <!-- Faktisk text -->
+      <div>
+        <p class="bröd">vad kan man skriva här</p>
+      </div>
+
+      <a href="https://github.com/pad918/CubeTracer">Källkod på github</a>
+
     </div>
+
+    <!-- Projekt åk2 -->
+    <hr class="solid">
+    <div class="container" style="max-width: 1000px"> 
+      
+      <!-- bilden -->  
+      <img src="cubetracer1.png" style="width: 100%">
+      
+      <!-- rubriken -->
+      <div class="top_center projHeader">
+          <h1>PROJEKT åk2</h1>
+      </div>
+
+      <!-- Vad projektet innehåller () -->
+      
+      <div class="lang_props">
+        <h3>java SQL databaser C</h3> 
+      </div>
+      <hr class="solid wide">
+      
+      <!-- Faktisk text -->
+      <div>
+        <p class="bröd">Här kan man skriva något annat</p>
+      </div>
+    </div>
+
   </div>
 
   <!-- Ticket Modal -->
