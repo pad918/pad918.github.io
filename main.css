@@ -13,7 +13,7 @@
 
 .bröd{
     text-align: center;
-    color: black;
+    color: white;
     font-size: larger;
 }
 
@@ -61,6 +61,22 @@
  .projHeader h1{
     color: white;
     font-size: 60px;
-    background-color:rgba(0, 0, 0, 0.75);
+    text-decoration: underline;
+    background-color:rgba(0, 0, 0, 0.0);
   }
   
+  .socialbtns ul{
+    margin: 0;
+    padding: 0;
+    transform: translate(-25px, -50%);
+    color: #BF616A;
+  }
+
+  .socialbtns li{
+    font-size: 75px;
+    padding-left: 50px;
+    display: inline;
+    width: 40px;
+    height: 100px;
+    
+  }

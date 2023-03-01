@@ -13,7 +13,7 @@ body {font-family: "Lato", sans-serif}
 .mySlides {display: none}
 </style>
 </head>
-<body>
+<body style="background-color: rgb(16, 18, 20)">
 
 <!-- Navbar -->
 <div class="w3-top">
@@ -38,33 +38,65 @@ body {font-family: "Lato", sans-serif}
 <div class="w3-content" style="max-width:2000px;margin-top:46px">
 
   <!-- Automatic Slideshow Images -->
-  <div style="width: 100%; margin-left: 0%; background-color: #BF616A; top:50%; left: 50%;">
+  <div style="width: 100%; margin-left: 0%; background-color: white; top:50%; left: 50%;">
     <!-- <img src="test.png" style="width:100%"> -->
     <div>
-      <h1 class="relative_centered" style="font-size: 80px; padding-bottom: 0px; padding-top: 80px; text-align: center;">
+      <h1 class="relative_centered" style="font-size: 80px; margin-bottom: 0px; padding-bottom: 0px; padding-top: 120px; text-align: center;">
         Måns Abrahamsson
-      </h1>
-      <p class="relative_centered" style="font-size: 30px; padding-top: 0px; text-align: center;">
-        <b>E-portfolio 2023</b>
-      </p>   
+      </h1> 
+      <div align="center" class="socialbtns" style="margin: 0; padding: 0;">
+        <ul style="list-style-type: none;">
+        <li><a href="https://github.com/pad918" class="fa fa-lg fa-github"></a></li>
+        <li><a href="https://www.linkedin.com/in/m%C3%A5ns-abrahamsson-7b51a4189/" class="fa fa-lg fa-linkedin"></a></li>
+        </ul>
+      </div>
     </div>
+    
   </div>
+</div>
+  
+
+  <!--
+  <div class="w3-container w3-content w3-center" style="max-width:100%; padding: 0; background-color: white;">
+    <h2 class="w3-wide" style="color: black; font-size: 50px;">Om mig</h2>
+    <hr class="solid">
+  </div>
+  -->
+  <!-- Om mig sida -->
+
+  <div class="w3-container w3-content w3-center" style="width:800px; padding: 0;"> 
+    
+    <!-- Faktisk text -->
+    <div>
+      <p class="bröd">
+        Hej jag blablabl det här är min e-portfölj
+      </p>
+    </div>
+
+    <a href="https://github.com/pad918/CubeTracer">Källkod på github</a>
+
+  </div>
+
+
+  <div class="w3-container w3-content w3-center" style="max-width:100%; padding: 0; background-color: white;">
+    <h2 class="w3-wide" style="color: black; font-size: 50px;">Projekt</h2>
+    <hr class="solid">
   </div>
   
   <!-- Projekt -->
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-    <h2 class="w3-wide">Mina projekt</h2>
+    
     
     <!-- CUBE TRACER -->
-    <hr class="solid">
+    
     <div class="container" style="max-width: 1000px"> 
       
       <!-- bilden -->  
-      <img src="cubetracer1.png" style="width: 100%">
+      <!--<img src="cubetracer1.png" style="width: 100%"> -->
       
       <!-- rubriken -->
-      <div class="top_center projHeader">
-          <h1>CUBETRACER</h1>
+      <div class="projHeader">
+          <h1>Cubetracer</h1>
       </div>
 
       <!-- Vad projektet innehåller () -->
@@ -72,7 +104,7 @@ body {font-family: "Lato", sans-serif}
       <div class="lang_props">
         <h3>c++    datastrukturer</h3> 
       </div>
-      <hr class="solid wide">
+      
       
       <!-- Faktisk text -->
       <div>
@@ -83,16 +115,39 @@ body {font-family: "Lato", sans-serif}
 
     </div>
 
-    <!-- Projekt åk2 -->
+
+    <!-- exempel utan bild -->
     <hr class="solid">
     <div class="container" style="max-width: 1000px"> 
       
-      <!-- bilden -->  
-      <img src="cubetracer1.png" style="width: 100%">
+      <!-- rubriken -->
+      <div class="projHeader">
+          <h1>Bevisverifierare</h1>
+      </div>
+
+      <!-- Vad projektet innehåller () -->
+      
+      <div class="lang_props">
+        <h3>prolog</h3> 
+      </div>
+      
+      
+      <!-- Faktisk text -->
+      <div>
+        <p class="bröd">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        <a href="http://www.example.org" class="bröd">Länk till källkod</a>
+      </div>
+    </div>
+
+    <!-- exempel utan bild2 -->
+    <hr class="solid">
+    <div class="container" style="max-width: 1000px"> 
       
       <!-- rubriken -->
-      <div class="top_center projHeader">
-          <h1>PROJEKT åk2</h1>
+      <div class="projHeader">
+          <h1>ingen bild222</h1>
       </div>
 
       <!-- Vad projektet innehåller () -->
@@ -100,13 +155,16 @@ body {font-family: "Lato", sans-serif}
       <div class="lang_props">
         <h3>java SQL databaser C</h3> 
       </div>
-      <hr class="solid wide">
+      
       
       <!-- Faktisk text -->
       <div>
-        <p class="bröd">Här kan man skriva något annat</p>
+        <p class="bröd">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
       </div>
     </div>
+
 
   </div>
 
@@ -131,7 +189,7 @@ body {font-family: "Lato", sans-serif}
   </div>
 
   <!-- The Contact Section -->
-  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+  <div class="w3-container w3-content w3-padding-64 w3-white" style="width: 100%;" id="contact">
     <h2 class="w3-wide w3-center">Kontaktinformation</h2>
     <div class="w3-row w3-padding-32">
       <div class="w3-col m6 w3-large w3-margin-bottom">
