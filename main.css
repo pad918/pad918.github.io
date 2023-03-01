@@ -17,6 +17,13 @@
     font-size: larger;
 }
 
+.bröd_li{
+    margin-left: 25%;
+    text-align: left;
+    color: white;
+    font-size: larger;
+}
+
 
 .wide{
     text-align: center;
@@ -33,13 +40,10 @@
 
 .lang_props{
     text-align: center;
-    display:inline-block;
-    width: 85%;
-    margin-bottom: 0;
-    padding-bottom: 0;
-
     color: #BF616A;
     font-size: small;
+    margin: 0;
+    padding: 0;
 }
 
 .centered {
@@ -79,4 +83,15 @@
     width: 40px;
     height: 100px;
     
+  }
+
+  .prog_språk li{
+    display: inline-block;
+    margin: 0 10px;
+    
+  }
+
+  .prog_språk h3{
+    display: inline-block;
+    margin: 0 10px;
   }

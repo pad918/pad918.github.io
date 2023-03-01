@@ -64,17 +64,21 @@ body {font-family: "Lato", sans-serif}
   -->
   <!-- Om mig sida -->
 
-  <div class="w3-container w3-content w3-center" style="width:800px; padding: 0;"> 
+  <div class="w3-container w3-content w3-center" style="width:1200px; padding: 0;"> 
     
-    <!-- Faktisk text -->
-    <div>
-      <p class="bröd">
-        Hej jag blablabl det här är min e-portfölj
-      </p>
+    <div class="lang_props">
+      <ul class="prog_språk">
+        <li><h1>c++</h1> </li>
+        <li><h1>java</h1> </li>
+        <li><h1>SQL</h1> </li>
+        <li><h1>prolog</h1> </li>
+        <li><h1>elixir</h1> </li>
+        <li><h1>linux</h1> </li>
+        <li><h1>C#</h1> </li>
+        <li><h1>python</h1> </li>
+        <li><h1>git</h1> </li>
+      </ul>
     </div>
-
-    <a href="https://github.com/pad918/CubeTracer">Källkod på github</a>
-
   </div>
 
 
@@ -86,9 +90,51 @@ body {font-family: "Lato", sans-serif}
   <!-- Projekt -->
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
     
+    <!-- Assembler -->
     
+    <div class="container" style="max-width: 1000px"> 
+      
+      <!-- rubriken -->
+      <div class="projHeader">
+          <h1>Assembler</h1>
+      </div>
+
+      <!-- Vad projektet innehåller () -->
+      
+      <div class="lang_props">
+        <ul class="prog_språk">
+          <li><h3>c++</h3> </li>
+          <li><h3>assembler</h3> </li>
+        </ul>
+      </div>
+      
+      
+      <!-- Faktisk text -->
+      <div>
+        <p class="bröd">
+          I kursen datorteknik lärde jag mig om datorarkitektur och assemblerspråk. Detta intresserade mig mycket, speciellt
+          hur man på ett effektivt sätt skulle designa en instruktionsuppsättning. Därdör valde jag att skapa en egen unik instruktionsuppsättning
+          som jag kallar assembler24 eftersom den använder sig av 24-bitar långa instruktioer. Att skriva in maskinkoder för hand är
+          mycket anstängande och därför skapade jag ett assemblerspråk och en assembler som omvandlar språket till maskinkoder. Utöver
+          assemblern skapades även en mycket enkel emulator.
+          <br><br>
+          Följande funktioner är implementerade i asssemblern:
+          <br>
+          <ul>
+            <li class="bröd_li">Felmedelanden</li>
+            <li class="bröd_li">Labels</li>
+            <li class="bröd_li">Kommentarer</li>
+            <li class="bröd_li">Inkludera andra assemblerfiler</li>
+            <li class="bröd_li">Maskinkodsgenerering</li>
+          </ul>
+        </p>
+        <a href="https://github.com/pad918/Assembler24" class="bröd">Länk till källkod</a>
+      </div>
+    </div>
+
+
     <!-- CUBE TRACER -->
-    
+    <hr class="solid">
     <div class="container" style="max-width: 1000px"> 
       
       <!-- bilden -->  
@@ -102,21 +148,27 @@ body {font-family: "Lato", sans-serif}
       <!-- Vad projektet innehåller () -->
       
       <div class="lang_props">
-        <h3>c++    datastrukturer</h3> 
+        <ul class="prog_språk">
+          <li><h3>c++</h3> </li>
+          <li><h3>datastrukturer</h3> </li>
+        </ul>
       </div>
       
       
       <!-- Faktisk text -->
       <div>
-        <p class="bröd">vad kan man skriva här</p>
+        <p class="bröd">
+          Experimenerade med olika renderingstekniker och hur en stor värld kan renderas på ett effektivt sätt. jag
+          använde mig av en datastruktur som kallas octree...
+        </p>
       </div>
 
-      <a href="https://github.com/pad918/CubeTracer">Källkod på github</a>
+      <a href="https://github.com/pad918/CubeTracer" class="bröd">Källkod på github</a>
 
     </div>
 
 
-    <!-- exempel utan bild -->
+    <!-- Bevisverifierare -->
     <hr class="solid">
     <div class="container" style="max-width: 1000px"> 
       
@@ -128,41 +180,56 @@ body {font-family: "Lato", sans-serif}
       <!-- Vad projektet innehåller () -->
       
       <div class="lang_props">
-        <h3>prolog</h3> 
+        <ul class="prog_språk">
+          <li><h3>prolog</h3> </li>
+          <li><h3></h3> </li>
+        </ul>
       </div>
       
       
       <!-- Faktisk text -->
       <div>
         <p class="bröd">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          En som del av kursen logik för dataloger (DD1351) skapades två program för bevisverifiering i prolog. Det första använder
+          sig av reglerna för naturlig deduktion för att avgöra om en mängd premisser är tillräckliga
+          för att bevisa ett påstående. Senare under kursen skapades ett liknande program för verifiering av ett påstående
+          i CTL utifrån en mängd premisser och en given graf.   
         </p>
-        <a href="http://www.example.org" class="bröd">Länk till källkod</a>
+        <a href="https://github.com/pad918/prolog_bevisverifiering" class="bröd">Länk till källkod</a>
       </div>
     </div>
 
-    <!-- exempel utan bild2 -->
+    
+
+    <!-- Java httpserver -->
     <hr class="solid">
     <div class="container" style="max-width: 1000px"> 
       
       <!-- rubriken -->
       <div class="projHeader">
-          <h1>ingen bild222</h1>
+          <h1>Java httpserver</h1>
       </div>
 
       <!-- Vad projektet innehåller () -->
       
       <div class="lang_props">
-        <h3>java SQL databaser C</h3> 
+        <ul class="prog_språk">
+          <li><h3>java</h3> </li>
+          <li><h3>SQL</h3> </li>
+          <li><h3>databaser</h3> </li>
+        </ul>
       </div>
       
       
       <!-- Faktisk text -->
       <div>
         <p class="bröd">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          En httpserver jag gjorde från grunden i java för att bättre förstå http-protokollet, databaser, SSL och 
+          authentisering. INTE KLAR
         </p>
       </div>
+
+      <a href="https://github.com/pad918/Java-webserver-from-scratch" class="bröd">Källkod på github</a>
     </div>
 
 
