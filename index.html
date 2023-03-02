@@ -149,8 +149,11 @@ body {font-family: "Lato", sans-serif}
       <!-- Faktisk text -->
       <div>
         <p class="bröd">
-          Experimenerade med olika renderingstekniker och hur en stor värld kan renderas på ett effektivt sätt. jag
-          använde mig av en datastruktur som kallas octree...
+          Jag skapade ett program för att rendera ett voxelgrid genom att använda sig av
+          ray casting. Implementation utgick från John Amanatides och Andrew Woo algoritm <a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.42.3443&rep=rep1&type=pdf">A Fast Voxel Traversal Algorithm for Ray Tracing</a>.
+          För att öka prestandan användes även en rumspartitioneringsstruktur som kallas octrees.
+          All kod skrevs i c++ för att exekveras på en cpu, vilket leder till relativt låg prestanda
+          jämfört med om hårdvaruaccelerering hade använts.
         </p>
       </div>
 
@@ -181,7 +184,8 @@ body {font-family: "Lato", sans-serif}
       <!-- Faktisk text -->
       <div>
         <p class="bröd">
-          En som del av kursen logik för dataloger (DD1351) skapades två program för bevisverifiering i prolog. Det första använder
+          En som del av kursen <a href="https://www.kth.se/student/kurser/kurs/DD1351">logik för dataloger (DD1351)</a> 
+          skapades två program för bevisverifiering i prolog. Det första använder
           sig av reglerna för naturlig deduktion för att avgöra om en mängd premisser är tillräckliga
           för att bevisa ett påstående. Senare under kursen skapades ett liknande program för verifiering av ett påstående
           i CTL utifrån en mängd premisser och en given graf.   
@@ -215,13 +219,64 @@ body {font-family: "Lato", sans-serif}
       <!-- Faktisk text -->
       <div>
         <p class="bröd">
-          En httpserver jag gjorde från grunden i java för att bättre förstå http-protokollet, databaser, SSL och 
-          authentisering. INTE KLAR
+          En httpserver jag skapde utanför studierna vid sidan av kursen <a href="https://www.kth.se/student/kurser/kurs/IK1203">nätverk och kommunikation (IK1203)</a>. Servern skapades
+          från grunden i java för att bättre förstå http-protokollet, databaser, SSL och authentisering.
+          
+          <br><br>
+          Servern stödjer följande:
+          <br>
+          <ul>
+            <li class="bröd_li">GET och POST förfrågningar</li>
+            <li class="bröd_li">Cookies</li>
+            <li class="bröd_li">Koppling till databas</li>
+          </ul>
+
         </p>
       </div>
 
       <a href="https://github.com/pad918/Java-webserver-from-scratch" class="bröd">Källkod på github</a>
     </div>
+
+    <!-- Elixir projekt -->
+    <hr class="solid">
+    <div class="container" style="max-width: 1000px"> 
+      
+      <!-- rubriken -->
+      <div class="projHeader">
+          <h1>Elixir-uppgifter</h1>
+      </div>
+
+      <!-- Vad projektet innehåller () -->
+      
+      <div class="lang_props">
+        <ul class="prog_språk">
+          <li><h3>elixir</h3> </li>
+          <li><h3>datastrukturer</h3> </li>
+        </ul>
+      </div>
+      
+      
+      <!-- Faktisk text -->
+      <div>
+        <p class="bröd">
+          I kursen <a href="https://www.kth.se/social/course/ID1019/">programmering 2 (ID1019)</a> löstes ett antal problem i det funktionella programmeringsspråket elixir.
+          <br><br>
+          Några exempel på lösta uppgifter är:
+          <br>
+          <ul>
+            <li class="bröd_li">Metainterpretator</li>
+            <li class="bröd_li">Raytracer</li>
+            <li class="bröd_li">Beräkna derivatan av en funktion</li>
+            <li class="bröd_li"><a href="https://adventofcode.com/2022/day/16">Advents of code day 16 2022</a></li>
+          </ul>
+
+
+        </p>
+      </div>
+
+      <a href="https://github.com/pad918/programmering2" class="bröd">Källkod på github</a>
+    </div>
+
   </div>
 
   <!-- Om mig divider -->
