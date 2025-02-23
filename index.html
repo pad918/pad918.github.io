@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,7 +35,7 @@ body {font-family: "Lato", sans-serif}
       <h1 class="relative_centered" style="font-size: min(10vw, 80px); margin-bottom: 0px; padding-bottom: 0px; padding-top: 120px; text-align: center;">
         Måns Abrahamsson
       </h1>
-      <h2 class="relative_centered" style="font-size: min(5vw, 40px); margin: 0; padding-bottom: 50px; padding-top: 0px; text-align: center;">E-portfölj 2023</h2>
+      <h2 class="relative_centered" style="font-size: min(5vw, 40px); margin: 0; padding-bottom: 50px; padding-top: 0px; text-align: center;">E-portfölj 2025</h2>
       <div align="center" class="socialbtns" style="margin: 0; padding: 0;">
         <ul style="list-style-type: none;">
         <li><a href="https://github.com/pad918" class="fa fa-lg fa-github"></a></li>
@@ -59,15 +60,10 @@ body {font-family: "Lato", sans-serif}
     
     <div class="lang_props">
       <ul class="prog_språk">
-        <li><h1>c++</h1> </li>
-        <li><h1>java</h1> </li>
-        <li><h1>SQL</h1> </li>
-        <li><h1>prolog</h1> </li>
-        <li><h1>elixir</h1> </li>
-        <li><h1>linux</h1> </li>
-        <li><h1>C#</h1> </li>
         <li><h1>python</h1> </li>
-        <li><h1>git</h1> </li>
+        <li><h1>C#</h1> </li>
+        <li><h1>SQL</h1> </li>
+        <li><h1>linux</h1> </li>
       </ul>
     </div>
   </div>
@@ -81,13 +77,13 @@ body {font-family: "Lato", sans-serif}
   <!-- Projekt -->
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
     
-    <!-- Assembler -->
+    <!-- Indoor Positioning System -->
     
     <div class="container" style="max-width: 1000px"> 
       
       <!-- rubriken -->
       <div class="projHeader">
-          <h1>Assembler</h1>
+          <h1>Indoor Positioning System</h1>
       </div>
 
       <!-- Vad projektet innehåller () -->
@@ -95,7 +91,7 @@ body {font-family: "Lato", sans-serif}
       <div class="lang_props">
         <ul class="prog_språk">
           <li><h3>c++</h3> </li>
-          <li><h3>assembler</h3> </li>
+          <li><h3>python</h3> </li>
         </ul>
       </div>
       
@@ -103,23 +99,84 @@ body {font-family: "Lato", sans-serif}
       <!-- Faktisk text -->
       <div>
         <p class="bröd">
-          I kursen <a href="https://www.kth.se/student/kurser/kurs/IS1200">datorteknik (IS1200)</a> lärde jag mig om datorarkitekturer och assemblerspråk. Detta intresserade mig mycket, speciellt
-          hur man på ett effektivt sätt skulle designa en egen instruktionsuppsättning. Därför valde jag att skapa en egen unika instruktionsuppsättning
-          som jag kallar assembler24. Det unika med assembler24 är att den använder sig av 24-bitar långa instruktioner. Att skriva in maskinkoder för 
-          hand är dock mycket ansträngande och därför var det nödvändigt att skapa ett assemblerspråk och en assembler som omvandlar språket till maskinkoder. Utöver
-          assemblern skapades även en mycket enkel emulator.
+          Mitt kandidatexamensarbete fokuserade på att undersöka möjligheten att bygga ett 
+          kostnadseffektivt 3D-positioneringssystem för inomhusbruk, baserat på ljudsignaler. 
+          Projektet innebar att designa, bygga och testa ett system med mikrofoner, en högtalare 
+          och en mikrokontroller, samt att jämföra dess prestanda med befintlig forskning inom 
+          området.
           <br><br>
-          Följande funktioner är implementerade i asssemblern:
-          <br>
-          <ul>
-            <li class="bröd_li">Felmedelanden</li>
-            <li class="bröd_li">Labels</li>
-            <li class="bröd_li">Kommentarer</li>
-            <li class="bröd_li">Inkludera andra assemblerfiler</li>
-            <li class="bröd_li">Maskinkodsgenerering</li>
+          Ingengörsmässiga problem som löstes under arbetet var bland annat:
+          <ul class="text_list">
+            <li class="bröd_li">
+              Spela in 4 mikrofoner sammtidigt på en RP2040 MPU och strömma dessa i realtid till en
+              dator över USB.
+            </li>
+            <li class="bröd_li">
+              Bygga ett python-program för DSP (Digital Signal Processing) för att normalizera ljudsignalerna
+              och justera för fortsatt processering.
+            </li>
+            <li class="bröd_li">
+              Använda python för att testa olika lösningar för att beräkna ljudets ursprungsposition med
+              TDOA (Time Difference of Arrival). Vi använde dels olika numberiska metoder men även maskininläsning.
+            </li>
           </ul>
         </p>
-        <a href="https://github.com/pad918/Assembler24" class="bröd">Länk till källkod</a>
+        <a href="https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1894320&dswid=-4803" class="bröd">Länk till examensarbetet</a>
+      </div>
+    </div>
+
+    <!-- Chat-EPB -->
+    <hr class="solid">
+    <div class="container" style="max-width: 1000px"> 
+      
+      <!-- rubriken -->
+      <div class="projHeader">
+          <h1>Chat-EPB</h1>
+      </div>
+
+      <!-- Vad projektet innehåller () -->
+      
+      <div class="lang_props">
+        <ul class="prog_språk">
+          <li><h3>C#</h3> </li>
+          <li><h3>web dev</h3></li>
+          <li><h3>git</h3></li>
+        </ul>
+      </div>
+      
+      
+      <!-- Faktisk text -->
+      <div>
+        <p class="bröd">
+          I kursen <a href="https://www.kth.se/social/course/II1305/">"Projekt inom informations- och kommunikationsteknik" (II1305)</a> 
+          utvecklades en tjänst i sammarbete med Erik Penser Bank för att hjälpa anställda på
+          banken att utföra arbetsuppgifter snabbare med hjälp av GPT-4.
+          <br><br>
+          Chat-EPB, som vi kallade tjänsten,
+          bestod av en hemsida utvecklad i Blazor som lät anställda ladda upp pdf-filer och låta
+          GPT-4 göra olika former av analyser av datan automatiskt. Många av de funktioner som vi
+          implementerade finns idag redan inbyggda i Chat-GPT och liknande tjänster men när projektet 
+          skapade (våren 2023) var dessa tjänster mycker mer primitiva. 
+          
+          <br><br>
+          Systemet används därmed inte och finns inte tillgängligt online, däremot finns ett par filmer
+          från ett dome kvar på <a href="https://bravogroup2023.github.io/ChatEPB/">demo-hemsidan</a>.
+
+          <br><br>
+          Problem som vi löste:
+          <ul class="text_list">
+            <li class="bröd_li">
+              Inloggningsfunktion och registrering av användare
+            </li>
+            <li class="bröd_li">
+              Uppladdning av PDF-filer och OCR för att extrahera text från dessa filer
+            </li>
+            <li class="bröd_li">
+              RAG (Retrieval Augumented Generation) för att minska storleken av indatan 
+            </li>
+          </ul>
+
+        </p>
       </div>
     </div>
 
@@ -133,15 +190,15 @@ body {font-family: "Lato", sans-serif}
       
       <!-- rubriken -->
       <div class="projHeader">
-          <h1>Cubetracer</h1>
+          <h1>CERT-SE CTF 2024</h1>
       </div>
 
       <!-- Vad projektet innehåller () -->
       
       <div class="lang_props">
         <ul class="prog_språk">
-          <li><h3>c++</h3> </li>
-          <li><h3>datastrukturer</h3> </li>
+          <li><h3>CTF</h3></li>
+          <li><h3>python</h3></li>
         </ul>
       </div>
       
@@ -149,133 +206,19 @@ body {font-family: "Lato", sans-serif}
       <!-- Faktisk text -->
       <div>
         <p class="bröd">
-          Jag skapade ett program för att rendera ett voxelgrid med
-          ray casting. Implementation utgick från John Amanatides och Andrew Woos algoritm <a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.42.3443&rep=rep1&type=pdf">A Fast Voxel Traversal Algorithm for Ray Tracing</a>.
-          För att öka prestandan användes även en datastrukturen octree för rumspartitionering.
-          All kod skrevs i c++ för att exekveras på en cpu, vilket leder till relativt låg prestanda
-          jämfört med om hårdvaruaccelerering hade använts.
+          Efter att ha avklarat kursen Etisk Hackning <a href="https://www.kth.se/student/kurser/kurs/EN2720">(EN2720)</a>
+          och varit på studiebesäk på Nationellt Cybersäkerhetscenter blev jag intresserad av 
+          att lösa MSB:s årliga CTF. CTF:en bestod av en PCAP (packet capture) från ett nätverk
+          som råkat ut för en ransomware attack. De första flaggorna var extremt enkla
         </p>
       </div>
 
-      <a href="https://github.com/pad918/CubeTracer" class="bröd">Källkod på github</a>
+      <a href="https://www.cert.se/2024/09/cert-se-ctf2024.html" class="bröd">CERT-SE CTF 2024</a>
 
     </div>
 
-
-    <!-- Bevisverifierare -->
-    <hr class="solid">
-    <div class="container" style="max-width: 1000px"> 
-      
-      <!-- rubriken -->
-      <div class="projHeader">
-          <h1>Verifiering av bevis</h1>
-      </div>
-
-      <!-- Vad projektet innehåller () -->
-      
-      <div class="lang_props">
-        <ul class="prog_språk">
-          <li><h3>prolog</h3> </li>
-          <li><h3></h3> </li>
-        </ul>
-      </div>
-      
-      
-      <!-- Faktisk text -->
-      <div>
-        <p class="bröd">
-          En som del av kursen <a href="https://www.kth.se/student/kurser/kurs/DD1351">logik för dataloger (DD1351)</a> 
-          skapades två program för bevisverifiering i prolog. Det första använder
-          sig av reglerna för naturlig deduktion för att avgöra om en mängd premisser är tillräckliga
-          för att bevisa ett påstående. Senare under kursen skapades ett liknande program för verifiering av ett påstående
-          i CTL utifrån en mängd premisser och en given graf.   
-        </p>
-        <a href="https://github.com/pad918/prolog_bevisverifiering" class="bröd">Länk till källkod</a>
-      </div>
-    </div>
 
     
-
-    <!-- Java httpserver -->
-    <hr class="solid">
-    <div class="container" style="max-width: 1000px"> 
-      
-      <!-- rubriken -->
-      <div class="projHeader">
-          <h1>Java httpserver</h1>
-      </div>
-
-      <!-- Vad projektet innehåller () -->
-      
-      <div class="lang_props">
-        <ul class="prog_språk">
-          <li><h3>java</h3> </li>
-          <li><h3>SQL</h3> </li>
-          <li><h3>databaser</h3> </li>
-        </ul>
-      </div>
-      
-      
-      <!-- Faktisk text -->
-      <div>
-        <p class="bröd">
-          En httpserver jag skapade utanför studierna vid sidan av kursen <a href="https://www.kth.se/student/kurser/kurs/IK1203">nätverk och kommunikation (IK1203)</a>. Servern skapades
-          från grunden i java för att bättre förstå http-protokollet, databaser, SSL och autentisering.
-          
-          <br><br>
-          Servern stödjer följande:
-          <br>
-          <ul>
-            <li class="bröd_li">GET och POST förfrågningar</li>
-            <li class="bröd_li">Cookies</li>
-            <li class="bröd_li">Koppling till databas</li>
-          </ul>
-
-        </p>
-      </div>
-
-      <a href="https://github.com/pad918/Java-webserver-from-scratch" class="bröd">Källkod på github</a>
-    </div>
-
-    <!-- Elixir projekt -->
-    <hr class="solid">
-    <div class="container" style="max-width: 1000px"> 
-      
-      <!-- rubriken -->
-      <div class="projHeader">
-          <h1>Elixir-uppgifter</h1>
-      </div>
-
-      <!-- Vad projektet innehåller () -->
-      
-      <div class="lang_props">
-        <ul class="prog_språk">
-          <li><h3>elixir</h3> </li>
-          <li><h3>datastrukturer</h3> </li>
-        </ul>
-      </div>
-      
-      
-      <!-- Faktisk text -->
-      <div>
-        <p class="bröd">
-          I kursen <a href="https://www.kth.se/social/course/ID1019/">programmering 2 (ID1019)</a> löstes ett antal problem i det funktionella programmeringsspråket elixir.
-          <br><br>
-          Några exempel på lösta uppgifter är:
-          <br>
-          <ul>
-            <li class="bröd_li">Metainterpretator</li>
-            <li class="bröd_li">Raytracer</li>
-            <li class="bröd_li">Beräkna derivatan av en funktion</li>
-            <li class="bröd_li"><a href="https://adventofcode.com/2022/day/16">Advents of code day 16 2022</a></li>
-          </ul>
-
-
-        </p>
-      </div>
-
-      <a href="https://github.com/pad918/programmering2" class="bröd">Källkod på github</a>
-    </div>
 
   </div>
 
@@ -291,8 +234,8 @@ body {font-family: "Lato", sans-serif}
     <div class="container" style="max-width: 1000px">
       <div>
         <p class="bröd">
-          Jag har studerat <a href="https://www.kth.se/student/kurser/program/CINTE-20212.pdf">informationsteknik</a> på Kungliga tekniska högskolan i Stockholm sedan 2021 och har som mål att bli
-          civilingenjör i inbyggd elektronik.
+          Jag är masterstudent i cybersäkerhet på KTH och planerar att ta examen våren 2026.
+          Masterprogrammet är en del av en civilingengörsexamen i <a href="https://www.kth.se/student/kurser/program/CINTE-20212.pdf">informationteknik</a>.
         </p>
       </div>
     </div>
@@ -352,22 +295,5 @@ function carousel() {
 
 // Used to toggle the menu on small screens when clicking on the menu button
 function myFunction() {
-  var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
-  }
+  var x = document
 }
-
-// When the user clicks anywhere outside of the modal, close it
-var modal = document.getElementById('ticketModal');
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
-
-</body>
-</html>

@@ -3,6 +3,10 @@
     text-align: center;
   }
 
+.text_list ul{
+  text-align: left;
+}
+
 .top_center{
     text-align: center;
     position: absolute;
@@ -12,13 +16,13 @@
 }
 
 .bröd{
-    text-align: center;
+    text-align: left;
     color: white;
     font-size: larger;
 }
 
 .bröd_li{
-    margin-left: 25%;
+    margin-left: 5%;
     text-align: left;
     color: white;
     font-size: larger;
